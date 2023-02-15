@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+    </style>
+    <title>Game Board Counter</title>
+</head>
+<body>
+<div class="container">
+    <div class="scoreboard">
+     <div class="board">
+      <h3>HOME</h3>
+      <div class="points">
+          <p id="point-h">0</p>
+      </div>
+
+     <div class="buttons">
+    <button onclick="one_h()">+1</button>
+    <button onclick="two_h()">+2</button>
+    <button onclick="three_h()">+3</button>
+     </div>
+     </div>
+
+     <div class="board">
+      <h3>GUEST</h3>
+      <div class="points">
+          <p id="point-g">0</p>
+      </div>
+     
+     <div class="buttons">
+      <button onclick="one_g()">+1</button>
+      <button onclick="two_g()">+2</button>
+      <button onclick="three_g()">+3</button>
+       </div>
+       </div>
+
+    </div>
+</div>
+  <script src="index.js"></script>
+</body>
+</html>
